@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        body{
+            background-color:darkmagenta;
+        }
+        form{
+            background-color: aqua;
+        }
+        a{
+            color:aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1> Welcome to the new Page</h1>
+    <table border="2" cellspacing="20" cellpadding="20">
+        <tr rowspan="2">
+            <th> Name</th>
+            <th> Roll no.</th>
+            <th> Class </th>
+        </tr>
+        <tr>
+            <td> Krati</td>
+            <td> 16</td>
+            <td> CSE-20</td>
+        </tr>
+        <tr>
+            <td> Keerti </td>
+            <td> 4</td>
+            <td> CSE-20 </td>
+        </tr>
+        <tr>
+            <td> Krisha</td>
+            <td> 24</td>
+            <td> CSE-20</td>
+        </tr>
+        <tr>
+            <td> hritik</td>
+            <td> 45</td>
+            <td> CSE-20</td>
+        </tr>
+
+    </table>
+    <br>
+    <table border="5" cellpadding="10">
+        <tr>
+            <th colspan="2"> Name</th>
+            <th > Class</th>
+            <th> roll no.</th>
+        </tr>
+        <tr>
+            <td colspan="2"> A</td>
+            <td> cse20</td>
+            <td> 1</td>
+        </tr>
+        <tr>
+            <td colspan="2"> B</td>
+            <td> cse20</td>
+            <td> 2</td>
+        </tr>
+        <tr>
+            <td colspan="2"> C</td>
+            <td> cse20</td>
+            <td> 3</td>
+        </tr>
+        <tr>
+            <td colspan="2"> D</td>
+            <td> cse20</td>
+            <td> 4</td>
+        </tr>
+
+
+    </table>
+    <br>
+        <form action="#" method="post"> <!--<---this moves the data to any page-->
+        <fieldset>
+            <legend>Log in Page</legend>
+        <input type="button" value="Login">
+        <br>
+        
+        UserID: &nbsp; &nbsp; <input type="text" placeholder="enter valid userid" required size="25"><br><br>
+        Password: <input type="text" placeholder="password" required maxlength="3"><br><br>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="submit">
+        <input type="reset">
+        <br>
+
+
+        </fieldset>
+    </form>
+
+    <a href="/personal.html"> Details Page</a>
+
+
+
+    
+
+</body>
+</html>

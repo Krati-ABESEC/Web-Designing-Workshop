@@ -1,0 +1,16 @@
+/* #ffaa03*/
+/* #para{
+    color:#ffaa03;
+    background-color: rgba(173, 37, 37);
+} */
+
+/* .box{
+    height:200px;
+    width:200px;
+    background-color: #ffaa03;
+    border: 2px solid black;
+} */
+
+div{
+          display:flex;
+        }
