@@ -1,16 +1,79 @@
-/* #ffaa03*/
-/* #para{
-    color:#ffaa03;
-    background-color: rgba(173, 37, 37);
-} */
+body{
+    background-color: rgb(216, 213, 213);
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 
-/* .box{
-    height:200px;
+.outbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.box{
+    display: inline-block;
+    height:365px;
+    width:290px;
+    margin:10px;
+    background-color: white;
+    border-radius: 5px;
+    border:2px solid grey;
+}
+
+img{
+    height:180px;
+    width:280px;
+    margin-top:10px;
+    margin-left: 5px;
+}
+
+.text{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.text2{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin: 5px;
+    color:rgb(92, 91, 90);
+}
+
+.cost{
+    display: flex;
+    margin:7px;
+}
+
+.cost1{
+    color: rgb(7, 77, 7);
+    margin:10px;
+}
+
+.cost2{
+    color:rgb(92, 91, 90);
+    text-decoration: line-through;
+    margin-top:10px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+}
+.purchase{
+    display: flex;
+    height:35px;
     width:200px;
-    background-color: #ffaa03;
-    border: 2px solid black;
-} */
+    color:white;
+    background-color:rgb(19, 19, 216);
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    border-radius: 5px;
+}
 
-div{
-          display:flex;
-        }
