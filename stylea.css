@@ -2,6 +2,7 @@
     width:100%;
     height:40vh;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 
 .image{
@@ -9,7 +10,7 @@
     background-color: blue;
     padding:10px;
     flex-direction: column;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     justify-content: center;
     color:white;
     font-size: 1.3rem;
@@ -27,16 +28,28 @@
     justify-content: space-evenly;
 }
 
-.m p{
-    text-align: justify;
+.m{
+    background-color: white;
+    float:left;
 }
 
 .m img{
     float:right;
+    margin:5px;
 }
 
-.m{
-    float:left;
+
+.m p{
+    text-align: justify;
+}
+
+/* .foot{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(19, 18, 18);
+    padding:5px;
     margin:10px;
-}
-
+    color:white;
+    justify-content: center;
+    align-items: center;
+} */
