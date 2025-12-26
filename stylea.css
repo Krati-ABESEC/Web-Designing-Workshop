@@ -27,14 +27,16 @@
     justify-content: space-evenly;
 }
 
-.main p{
+.m p{
     text-align: justify;
 }
 
-.main img{
+.m img{
     float:right;
 }
 
-.main{
+.m{
     float:left;
+    margin:10px;
 }
+
