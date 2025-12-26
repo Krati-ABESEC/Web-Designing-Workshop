@@ -1,0 +1,10 @@
+.image img{
+    width:100%;
+    height:40vh;
+}
+
+.image{
+    background-color: blue;
+    padding:10px;
+    padding-bottom: 50px;
+}
