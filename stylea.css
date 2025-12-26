@@ -46,7 +46,7 @@
 .foot{
     display: flex;
     flex-direction: column;
-    background-color:rgb(163, 22, 22);
+    background-color:rgb(24, 23, 23);
     padding:5px;
     margin:10px;
     color:white;
