@@ -11,6 +11,7 @@ body {
 
 .nav-logo:hover {
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .nav-logo {
@@ -36,6 +37,7 @@ body {
 
 .location:hover {
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .text1 {
@@ -71,6 +73,7 @@ select {
   font-size: 0.8rem;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+  cursor: pointer;
 }
 input {
   margin: 0;
@@ -92,6 +95,7 @@ input {
   font-size: 1.2rem;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
+  cursor: pointer;
 }
 
 .lang {
@@ -111,6 +115,7 @@ input {
 
 .lang:hover{
   border:1px solid white;
+  cursor: pointer;
 }
 
 .sign {
@@ -135,6 +140,7 @@ input {
 
 .sign:hover {
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .returns {
@@ -147,6 +153,7 @@ input {
 
 .returns:hover {
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .cart {
@@ -166,7 +173,35 @@ input {
 
 .cart:hover {
   border: 1px solid white;
+  cursor: pointer;
 }
+
+.second{
+  display:flex;
+  align-items: center;
+  padding:5px;
+  background-color:#282b2b;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.second div{
+  font-size: 0.9rem;
+  font-weight: bold;
+  color:aliceblue;
+  padding:10px;
+}
+
+.second p{
+  margin:0;
+  font-weight: bold;
+}
+
+.second div:hover{
+  border:1px solid white;
+  cursor: pointer;
+}
+
 .main {
   background-image: url("am.jpg");
   height: 600px;
@@ -277,6 +312,13 @@ input {
 
 .box4 h2{
   margin-left: 10px;
+}
+
+.box4 p{
+  color:rgb(53, 53, 185);
+  font-size: 0.8rem;
+  margin-top: 30px;
+  margin-left: 5px;
 }
 
 
